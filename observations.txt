@@ -1,0 +1,29 @@
+Joshua Realubit
+netID - jrealu3
+________________________
+
+
+Time for factorial.cpp
+real	0m0.108s
+user	0m0.002s
+sys	0m0.010s
+
+________________________
+Time for naturally.hs 
+real	0m0.083s
+user	0m0.002s
+sys	0m0.007s
+________________________
+
+Time for accumulator.hs
+real	0m0.079s
+user	0m0.002s
+sys	0m0.007s
+
+________________________
+Observations: 
+It seems to me that the tail recursion in accumulator.hs makes this program quicker than naturally.hs.
+This must have something to do with the normal recursion in naturally.hs making multiple stacks in the 
+memory.
+
+As for the factorial.cpp file it seems to be slower due to having to compile the InfInt.h file.
