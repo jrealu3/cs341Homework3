@@ -2,7 +2,7 @@
 //netID - jrealu3
 #include "https://github.com/sercantutar/infint/blob/master/InfInt.h"
 
-long factorial (int n){
+long fact (int n){
   long result = 1;
   while(n > 1){
     result *= n--;
@@ -11,5 +11,5 @@ long factorial (int n){
 }
 
 int main(){
-  std::cout << factorial(100);
+  std::cout << fact(100);
 }
