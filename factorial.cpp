@@ -9,3 +9,7 @@ long factorial (int n){
   }
   return result;
 }
+
+int main(){
+  std::cout << factorial(100);
+}
