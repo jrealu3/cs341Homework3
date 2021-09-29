@@ -1,6 +1,6 @@
 //Joshua Realubit
 //netID - jrealu3
-#include "https://github.com/sercantutar/infint/blob/master/InfInt.h"
+//#include "InfInt.h"
 
 long fact (int n){
   long result = 1;
